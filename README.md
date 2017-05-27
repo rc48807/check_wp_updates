@@ -1,0 +1,2 @@
+# check_wp_updates
+This Nagios plugin monitors the version of WordPress, in search of updates, receiving as an argument the full path of the version.php file, where you get information about the version of the software installed, and uses WordPress's Web service to obtain the latest version available at the official site of WordPress, by conversing and notifying the critical state whenever new version or update is detected.
